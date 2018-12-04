@@ -8,6 +8,7 @@
 @import "facebook.scss";
 @import "github.scss";
 @import "youtube.scss";
+@import "linkedin.scss";
 
 // others
 @import "close.scss";
@@ -69,6 +70,10 @@
 
     &.github::before {
       @include pixelize($icon-github, $icon-github-colors, $px);
+    }
+
+    &.linkedin::before {
+      @include pixelize($icon-linkedin, $icon-linkedin-colors, $px);
     }
 
     &.close::before {
