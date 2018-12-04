@@ -72,16 +72,16 @@
       @include pixelize($icon-github, $icon-github-colors, $px);
     }
 
-    &.linkedin::before {
-      @include pixelize($icon-linkedin, $icon-linkedin-colors, $px);
-    }
-
     &.close::before {
       @include pixelize($icon-close, $icon-close-colors, $px);
     }
 
     &.youtube::before {
       @include pixelize($icon-youtube, $icon-youtube-colors, $px);
+    }
+
+    &.linkedin::before {
+      @include pixelize($icon-linkedin, $icon-linkedin-colors, $px);
     }
   }
 
